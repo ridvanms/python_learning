@@ -51,39 +51,39 @@ words = ['cat','dog','racoon','horse','fox']
 
 # creating small app for calculation area
 
-import math
-
-def calculate_square_are(side):
-    return side ** 2
-def calculate_rectangle_are(length,width):
-    return length * width
-def calculate_circle_are(radius):
-    return math.pi  * radius ** 2
-def main():
-    print("Welcome to the area calculator!")
-    print("1. Calculate the area of square.")
-    print("2. Calculate the area of a rectangle.")
-    print("3. Calculate the area of a circle.")
-
-    choice = input("Enter your choice [1, 2 or 3]: ")
-
-    if choice == "1":
-        side = float(input("Enter the length of the side: "))
-        area = calculate_square_are(side)
-        print(f"The are of the square is: {area}")
-    elif choice == "2":
-        length = float(input("Enter the length of the side: "))
-        width = float(input("Enter the width of the side: "))
-
-        area = calculate_rectangle_are(length, width)
-        print(f"The area of the reactangle is: {area}")
-    elif choice == "3":
-        radius = float(input("Enter the radius: "))
-        area = calculate_circle_are(radius)
-
-        print(f"The radius of the circle is: {area}")
-    else:
-        print("Invalid choice")
-
-if __name__ == "__main__":
-    main()
+# import math
+#
+# def calculate_square_are(side):
+#     return side ** 2
+# def calculate_rectangle_are(length,width):
+#     return length * width
+# def calculate_circle_are(radius):
+#     return math.pi  * radius ** 2
+# def main():
+#     print("Welcome to the area calculator!")
+#     print("1. Calculate the area of square.")
+#     print("2. Calculate the area of a rectangle.")
+#     print("3. Calculate the area of a circle.")
+#
+#     choice = input("Enter your choice [1, 2 or 3]: ")
+#
+#     if choice == "1":
+#         side = float(input("Enter the length of the side: "))
+#         area = calculate_square_are(side)
+#         print(f"The are of the square is: {area}")
+#     elif choice == "2":
+#         length = float(input("Enter the length of the side: "))
+#         width = float(input("Enter the width of the side: "))
+#
+#         area = calculate_rectangle_are(length, width)
+#         print(f"The area of the reactangle is: {area}")
+#     elif choice == "3":
+#         radius = float(input("Enter the radius: "))
+#         area = calculate_circle_are(radius)
+#
+#         print(f"The radius of the circle is: {area}")
+#     else:
+#         print("Invalid choice")
+#
+# if __name__ == "__main__":
+#     main()
