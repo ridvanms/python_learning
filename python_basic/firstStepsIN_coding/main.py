@@ -17,7 +17,7 @@
 # else:
 #     print("More")
 
-words = ['cat','dog','racoon','horse','fox']
+words = ['cat', 'dog', 'racoon', 'horse', 'fox']
 # for w in words:
 #     print(w,len(w))
 #
@@ -96,3 +96,16 @@ words = ['cat','dog','racoon','horse','fox']
 #     print("X and Y are the same")
 # else:
 #     print("X and Y are not the same")
+# i = 1
+# while i < 6:
+#     print(i)
+#     i += 1
+# else:
+#     print("I is no longer less than six")
+
+# lambda function is a small annonymous function
+#        which can take any number of arguments, but
+#        can have only one expression
+
+# multipyling = lambda a,b : a*b
+# print(multipyling(5,10))
