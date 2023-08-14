@@ -87,3 +87,12 @@ words = ['cat','dog','racoon','horse','fox']
 #
 # if __name__ == "__main__":
 #     main()
+# x = int(input("Enter number: "))
+# print(f"the result is: {x ^ 2}")
+
+# x = 5
+# y = 5
+# if(x is  y):
+#     print("X and Y are the same")
+# else:
+#     print("X and Y are not the same")
