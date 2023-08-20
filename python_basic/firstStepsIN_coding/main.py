@@ -109,3 +109,58 @@ words = ['cat', 'dog', 'racoon', 'horse', 'fox']
 
 # multipyling = lambda a,b : a*b
 # print(multipyling(5,10))
+
+
+#classes
+# class Person:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+#
+# p1 = Person("Hoky",20)
+# print(p1.name, p1.age)
+
+# class Vieckle:
+#     def __init__(self):
+#         pass
+#     def move(self):
+#         return "Move"
+#
+# class Car(Vieckle):
+#     pass
+# class Boat(Vieckle):
+#     def move(self):
+#         return "sail"
+# class Plane(Vieckle):
+#     def move(self):
+#         return "fly"
+#
+# car = Car()
+# boat = Boat()
+# plain = Plane()
+#
+# # print(f"The car {car.move()}, the boat {boat.move()}, the plain {plain.move()}")
+#
+# for x in (car,boat,plain):
+#     print(x.move())
+
+#modules
+# import platform
+# x = dir(platform)
+# print(x)
+
+# import datetime
+# x = datetime.datetime.now()
+# year = x.year
+# day = x.strftime("%A")
+# print(f"the year is {year} and the day is {day}")
+
+# import re
+# print('Hello')
+
+# try:
+#     print(x)
+# except NameError:
+#     print("Variable x is not defined")
+# except:
+#     print("Something else went wrong")
